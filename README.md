@@ -25,7 +25,12 @@ Set the absence time to 10s
 
 2. Wiring
  
-Connect PIR's output to pin1, radar's out  to pin2, photoresistor to pin3, mosfet input to pin4
+SR602 OUT - pin1, 
+HLK-LD2410S OT2 - pin2, 
+Mosfet input - pin3
+BH1750:
+SDA - pin10
+SCL - pin9
 
 3. Flashing ESPHome
    Open HA->Add-Ons->ESPHome->Open Web UI->New Device->Open ESPHome Web
