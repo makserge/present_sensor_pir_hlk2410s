@@ -26,3 +26,18 @@ Set the absence time to 10s
 2. Wiring
  
 Connect PIR's output to pin1, radar's out  to pin2, photoresistor to pin3, mosfet input to pin4
+
+3. Flashing ESPHome
+   Open HA->Add-Ons->ESPHome->Open Web UI->New Device->Open ESPHome Web
+   Press Boot on ESP32 and connect to computer
+   Press Connect and select port "tty.usbmodem*" and the press Connect
+   Press Prepare for first use then press Install then Close
+   Connect to Wi-Fi network "esphome-web*"
+   Open http://192.168.4.1/ in browser and connect to Wi-Fi
+   Connect to main Wi-Fi network
+   Open HA->Add-Ons->ESPHome->Open Web UI
+   On new discovered device "ESPHome Web *" press Adopt
+   Enter new name "BLE Presence Sensor" and press Adopt, then press Install
+   
+   
+   
